@@ -114,7 +114,14 @@ Reasons why social engineering attacks are effective include:
   - brute force and rainbow attacks are types of password attacks
 - social engineering attacks = a manipulation technique that exploits human error to gain private information, access, or valuables.
   - phishing, smshing, vishing, spear phishing, whaling, social media phishing, business email compromise, watering hole attack, usb baiting, and physical are the tyoes of social engineering
-- 
+- physical attacks = a security incident that affects not only digital but also physical environments where the incident is deployed.
+  - malicious usb cable, malicious flash drive, and card cloning/skimming are physical attacks
+- Adversarial artificial intelligence = is a technique that manipulates artificial intelligence and machine learning technology to conduct attacks more efficiently.
+- supply-chain attack = targets systems, applications, hardware, and/or software to locate a vulnerability where malware can be deployed
+- Cryptographic attack = affects secure forms of communication between a sender and intended recipient
+  - birthday, collision, and down-grade are forms of this attack
+
+##understanding attackers##
 
 
 
