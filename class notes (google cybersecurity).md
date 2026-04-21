@@ -121,7 +121,7 @@ Reasons why social engineering attacks are effective include:
 - Cryptographic attack = affects secure forms of communication between a sender and intended recipient
   - birthday, collision, and down-grade are forms of this attack
 
-##understanding attackers##
+####
 
 
 
