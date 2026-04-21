@@ -101,9 +101,20 @@
 ##sql##
 -
 
-##tools##
+##linux##
 -
 
+
+
+
+##tools##
+-
+- log = a record of events that occur within an organization's system
+- security information and event management (siem) tool = an application that collects and analyzes log data to monitor critical activities in an organization
+  - examples are splunk, wazuh, and cronicle
+- playbooks =  a manual that provides details about any operational action
+- network protocol analyzers (packet sniffer) = a tool designed to capture and analyze data traffic within a network (tcp dump and wireshark)
+-  
 
 
 
