@@ -121,8 +121,15 @@ Reasons why social engineering attacks are effective include:
 - Cryptographic attack = affects secure forms of communication between a sender and intended recipient
   - birthday, collision, and down-grade are forms of this attack
 
-####
+##nist framework##
+- Govern: Establishing the organization’s cybersecurity strategy, roles, and responsibilities. This is the overarching "umbrella" that informs how the other functions are executed.
+- Identify: Developing an organizational understanding of managed risks to systems, people, assets, data, and capabilities.
+- Protect: Outlining safeguards to ensure delivery of critical services and contain or limit the impact of a potential cybersecurity event.
+- Detect: Defining the appropriate activities to identify the occurrence of a cybersecurity event as quickly as possible.
+- Respond: Creating the playbook for actions to be taken once a detected cybersecurity incident occurs.
+- Recover: Identifying appropriate activities to maintain plans for resilience and to restore any capabilities or services that were impaired.
 
+  
 
 
 
