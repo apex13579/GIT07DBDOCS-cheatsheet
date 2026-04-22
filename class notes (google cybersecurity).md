@@ -354,6 +354,12 @@ there are 8 security domains and they are used to improve your network security 
 ## rmf framework
 - The steps in the RMF are prepare, categorize, select, implement, assess, authorize, and monitor. In the categorize step, security professionals develop risk-management processes and tasks.
 
+## controls
+- security controls = safeguards designed to reduce specific security risks
+  - encryption = the process of converting data from a readable format to an encoded format
+  - authentication = the process of verifying who someone or something is
+    - biometrics = unique physical characteristics that can be used to verify a person's identity
+  - authorization = the concept of granting access to specific resources within a system
 
 
 
