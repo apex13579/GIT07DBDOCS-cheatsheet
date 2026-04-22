@@ -70,7 +70,8 @@
 - Sensitive personally identifiable information (SPII) = A specific type of PII that falls under stricter handling guidelines
 - security posture = an organization's ability to manage its defense of critical assets and data, and react to change
 - security and risk management = focused on defining security goals and objectives, risk mitigation, compliance, business continuity, and legal regulations
--
+- social engineering = a manipulation technique that exploits human error to gain private information, access, or valuables
+- risk = anything that can impact the confidentiality, integrity, or availability of an asset
 
 
 
@@ -331,6 +332,23 @@ there are 8 security domains and they are used to improve your network security 
 - software development security    
   - focused on using secure coding practices. each phase should have security injected to then to ensure the security of data
  
+## threats, risks, and vulnerabilities
+
+- threats
+  - social engineering
+ 
+- risks
+  - low-risk
+    - information that would not harm the organization's reputation or ongoing operations, and would not cause financial damage if compromised
+  - medium-risk
+    - information that's not available to the public and may cause some damage to the organization's finances, reputation, or ongoing operations
+  - high-risk
+    - information protected by regulations or laws, which if compromised would have a severe negative impact on an organization's finances, ongoing operations, or reputation
+   
+- vulnerability
+  - a weakness that can be exploited by a threat
+  - there must be a vulnerability and threat in order for there to be a risk
+  - people can also be a vulnerability
 
 
 
