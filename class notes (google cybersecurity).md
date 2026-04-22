@@ -1,5 +1,4 @@
-##google cybersecurity##
--
+## google cybersecurity
 
 #what do security professionals actually do#
 -
@@ -16,8 +15,8 @@
 - installing prevention software
 - conducting periodic security audits
 
-##glossery##
--
+## glossery
+
 - cybersecurity = the practice of ensuring confidentiality, integrity, and availability of information by protecting networks, devices, people, and data from unauthorized access or criminal exploitation
 - threat actor = any person or group who presents a security risk
 - compliance = to adhere to internal standards and external regulations and enables the avoidance of fines and data breaches
@@ -73,8 +72,8 @@
 
 
 
-##skills that translate/transfer##
--
+## skills that translate/transfer
+
 - communication
 - collaboration
 - analysis
@@ -83,8 +82,8 @@
 - growth mindset
 - diverse perspectives
 
-##technical skills##
--
+## technical skills
+
 - programming languages
   - python
   - bash
@@ -95,20 +94,20 @@
 - threat landscape knowledge
 - incident response
 
-##python##
--
+## python
 
-##sql##
--
 
-##linux##
--
+## sql
 
+
+## linux
 
 
 
-##tools##
--
+
+
+## tools
+
 - log = a record of events that occur within an organization's system
 - security information and event management (siem) tool = an application that collects and analyzes log data to monitor critical activities in an organization
   - examples are splunk, wazuh, and cronicle
@@ -123,22 +122,22 @@
 
 
 
-##past cyber security attacks##
--
+## past cyber security attacks
+
 - the brain virus = created in 1986 by the alvie brothers. was originally created to prevent illegal copies of medical software. would infect a computer once a pirated disk was inserted and would from then replicate via any disk inserted.
   - spread globally in a matter of months
 -  the morris worm = created in t988 by robert morris. the program was originally designed to crawl and map the size of the internet. it would install itself on any computer on the internet.
   - the program failed to keep track of the devices it had infected and would continuously re-install itself till the computer ran out of memory and would crash. it infected 10% of the worlds devices at the time.
 
-##attacks in the digital age##
--
+## attacks in the digital age
+
 - in the year 2000 onel de guzman created the love letter attack to steal credentials. this attack spread rapidly and was the first example of social engineering.
 - the best defense against social engineering is training
 - in 2017 an attacker breached the credit reporter equifaqs. the breach effected approximately 40% of the us population. this was one of the largest known data breaches of sensitive data
   - the attackers stacked vulnerabilities to hit them from multiple angles. the vulns were known by equifaqs but it was not patched in a timely manner
 
-##Social engineering principles##
--
+## Social engineering principles
+
 Social engineering is incredibly effective. This is because people are generally trusting and conditioned to respect authority. The number of social engineering attacks is increasing with every new social media application that allows public access to people's data. Although sharing personal data—such as your location or photos—can be convenient, it’s also a risk.
 Reasons why social engineering attacks are effective include:
 - Authority: Threat actors impersonate individuals with power. This is because people, in general, have been conditioned to respect and follow authority figures. 
@@ -149,8 +148,8 @@ Reasons why social engineering attacks are effective include:
 - Trust: Threat actors establish an emotional relationship with users that can be exploited over time. They use this relationship to develop trust and gain personal information.
 - Urgency: A threat actor persuades others to respond quickly and without questioning.
 
-##cissp 8 domains##
--
+## cissp 8 domains
+
 - security and risk management = defines security goals and objectives, risk mitigation, compliance, business continuity, and the law
 - asset security = secures digital and physical assets. its also related to the storage, maintenance, retention, and destruction of data
 - security architecture and engineering = optimizes data security by ensuring effective tools, systems, and processes are in place
@@ -160,8 +159,8 @@ Reasons why social engineering attacks are effective include:
 - security operations = conducting investigations and implementing preventative measures
 - software development security = uses secure coding practices, which are a set of recommended guidelines that are used to create secure applications and services
 
-##types of attacks##
--
+## types of attacks
+
 - password attacks = an attempt to access password-secured devices, systems, networks, or data
   - brute force and rainbow attacks are types of password attacks
 - social engineering attacks = a manipulation technique that exploits human error to gain private information, access, or valuables.
@@ -173,8 +172,8 @@ Reasons why social engineering attacks are effective include:
 - Cryptographic attack = affects secure forms of communication between a sender and intended recipient
   - birthday, collision, and down-grade are forms of this attack
 
-##nist framework##
--
+## nist framework
+
 - Govern: Establishing the organization’s cybersecurity strategy, roles, and responsibilities. This is the overarching "umbrella" that informs how the other functions are executed.
 - Identify: Developing an organizational understanding of managed risks to systems, people, assets, data, and capabilities.
 - Protect: Outlining safeguards to ensure delivery of critical services and contain or limit the impact of a potential cybersecurity event.
@@ -182,33 +181,33 @@ Reasons why social engineering attacks are effective include:
 - Respond: Creating the playbook for actions to be taken once a detected cybersecurity incident occurs.
 - Recover: Identifying appropriate activities to maintain plans for resilience and to restore any capabilities or services that were impaired.
 
-##The Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)##
--
+## The Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)
+
 FERC-NERC is a regulation that applies to organizations that work with electricity or that are involved with the U.S. and North American power grid. These types of organizations have an obligation to prepare for,
 mitigate, and report any potential security incident that can negatively affect the power grid. They are also legally required to adhere to the Critical Infrastructure Protection (CIP) Reliability Standards defined by the FERC. 
 
-##The Federal Risk and Authorization Management Program (FedRAMP®)##
--
+## The Federal Risk and Authorization Management Program (FedRAMP®)
+
 FedRAMP is a U.S. federal government program that standardizes security assessment, authorization, monitoring, and handling of cloud services and product offerings. 
 Its purpose is to provide consistency across the government sector and third-party cloud providers. 
 
-##Center for Internet Security (CIS®)##
--
+## Center for Internet Security (CIS®)
+
 CIS is a nonprofit with multiple areas of emphasis. It provides a set of controls that can be used to safeguard systems and networks against attacks. Its purpose is to help organizations establish a better plan of defense. 
 CIS also provides actionable controls that security professionals may follow if a security incident occurs. 
 
-##General Data Protection Regulation (GDPR)##
--
+## General Data Protection Regulation (GDPR)
+
 GDPR is a European Union (E.U.) general data regulation that protects the processing of E.U. residents’ data and their right to privacy in and out of E.U. territory. 
 For example, if an organization is not being transparent about the data they are holding about an E.U. citizen and why they are holding that data, this is an infringement that can result in a fine to the organization. Additionally, if a breach occurs and an E.U. citizen’s data is compromised, they must be informed. 
 The affected organization has 72 hours to notify the E.U. citizen about the breach.
 
-##Payment Card Industry Data Security Standard (PCI DSS)##
--
+## Payment Card Industry Data Security Standard (PCI DSS)
+
 PCI DSS is an international security standard meant to ensure that organizations storing, accepting, processing, and transmitting credit card information do so in a secure environment. The objective of this compliance standard is to reduce credit card fraud. 
 
-##The Health Insurance Portability and Accountability Act (HIPAA)##
--
+## The Health Insurance Portability and Accountability Act (HIPAA)
+
 HIPAA is a U.S. federal law established in 1996 to protect patients' health information. This law prohibits patient information from being shared without their consent. It is governed by three rules: 
 
 Privacy
@@ -221,12 +220,12 @@ Organizations that store patient data have a legal obligation to inform patients
 PHI relates to the past, present, or future physical or mental health or condition of an individual, whether it’s a plan of care or payments for care. 
 Along with understanding HIPAA as a law, security professionals also need to be familiar with the Health Information Trust Alliance (HITRUST®), which is a security framework and assurance program that helps institutions meet HIPAA compliance.
 
-##International Organization for Standardization (ISO) ##
--
+## International Organization for Standardization (ISO) 
+
 ISO was created to establish international standards related to technology, manufacturing, and management across borders. It helps organizations improve their processes and procedures for staff retention, planning, waste, and services. 
 
-##System and Organizations Controls (SOC type 1, SOC type 2)##
--
+## System and Organizations Controls (SOC type 1, SOC type 2)
+
 The American Institute of Certified Public Accountants® (AICPA) auditing standards board developed this standard. The SOC1 and SOC2 are a series of reports that focus on an organization's user access policies at different organizational levels such as: 
 
 Associate
@@ -243,21 +242,21 @@ Others
 
 They are used to assess an organization’s financial compliance and levels of risk. They also cover confidentiality, privacy, integrity, availability, security, and overall data safety. Control failures in these areas can lead to fraud.
 
-##ethics in cyber security##
--
+## ethics in cyber security
+
 for every new security incident or risk the right solution is not always simple
 in cyber security your job is to be impartial and unbiased. remember to stick to the policies and protocol you have been trained on no matter who the person is.
 
-##United States standpoint on counterattacks ##
--
+## United States standpoint on counterattacks 
+
 In the U.S., deploying a counterattack on a threat actor is illegal because of laws like the Computer Fraud and Abuse Act of 1986 and the Cybersecurity Information Sharing Act of 2015, among others. You can only defend. The act of counterattacking in the U.S. is perceived as an act of vigilantism. 
 A vigilante is a person who is not a member of law enforcement who decides to stop a crime on their own. And because threat actors are criminals, counterattacks can lead to further escalation of the attack, which can cause even more damage and harm. 
 Lastly, if the threat actor in question is a state-sponsored hacktivist, a counterattack can lead to serious international implications. A hacktivist is a person who uses hacking to achieve a political goal. The political goal may be to promote social change or civil disobedience. 
 
 For these reasons, the only individuals in the U.S. who are allowed to counterattack are approved employees of the federal government or military personnel. 
 
-##International standpoint on counterattacks##
--
+## International standpoint on counterattacks
+
 The International Court of Justice (ICJ), which updates its guidance regularly, states that a person or group can counterattack if: 
 
 The counterattack will only affect the party that attacked first.
@@ -273,8 +272,8 @@ Organizations typically do not counterattack because the above scenarios and par
 To learn more about specific scenarios and ethical concerns from an international perspective, review updates provided in the 
 Tallinn Manual online.
 
-##Ethical principles and methodologies##
--
+## Ethical principles and methodologies
+
 Because counterattacks are generally disapproved of or illegal, the security realm has created frameworks and controls—such as the confidentiality, integrity, and availability (CIA) triad and others discussed earlier in the program—to address issues of confidentiality, privacy protections, and laws. To better understand the relationship between these issues and the ethical obligations of cybersecurity professionals, review the following key concepts as they relate to using ethics to protect organizations and the people they serve. 
 
 Confidentiality means that only authorized users can access specific assets or data. Confidentiality as it relates to professional ethics means that there needs to be a high level of respect for privacy to safeguard private assets and data.
@@ -293,7 +292,7 @@ Stay informed and strive to advance your skills, so you can contribute to the be
 
  As an example, consider the Health Insurance Portability and Accountability Act (HIPAA), which is a U.S. federal law established to protect patients' health information, also known as PHI, or protected health information. This law prohibits patient information from being shared without their consent. So, as a security professional, you might help ensure that the organization you work for adheres to both its legal and ethical obligation to inform patients of a breach if their health care data is exposed.
 
- ##
+## 
 
 
 
