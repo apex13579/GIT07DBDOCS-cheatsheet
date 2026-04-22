@@ -393,7 +393,40 @@ there are 8 security domains and they are used to improve your network security 
 10. Avoid security by obscurity
   - The security of an application should not rely on keeping the source code secret. Its security should rely upon many other factors, including reasonable password policies, defense in depth, business transaction limits, solid network architecture, and fraud and audit controls.
 
+## plan a security audit
+- purpose of internal security audits
+  - identify organizational risk
+  - assess controls
+  - correct compliance issues 
+- common elements of internal audits
+  - establishing the scope and goals
+  - conducting a risk assessment
+  - completing a controls assessment
+  - assessing compliance
+  - communicating results
+ 
+## complete a security audit
+- audit questions
+  - what id the audit meant to achieve?
+  - which assets are most at risk?
+  - are current controls sufficient to protect those assets?
+  - what controls and compliance regulations need to be implemented
+- control categories
+  - administrative controls
+    - related to the human component. include policy and procedures  
+  - technical controls
+    - hardware and software solutions used to protect assets. 
+  - physical controls
+    - physical security put in place to be a physical barrier to protect assets. cameras, locks, etc
+- communication
+  - summarize the scope and goal
+  - lists existing risks
+  - notes how quick those risks need to be addressed
+  - identifies compliance regulations and gaps
+  - provide recommendations to improve company security posture
+ 
 ##
+
 
 
 
