@@ -68,7 +68,9 @@
 - Security frameworks = Guidelines used for building plans to help mitigate risk and threats to data and privacy
 - Security governance = Practices that help support, define, and direct security efforts of an organization
 - Sensitive personally identifiable information (SPII) = A specific type of PII that falls under stricter handling guidelines
-
+- security posture = an organization's ability to manage its defense of critical assets and data, and react to change
+- security and risk management = focused on defining security goals and objectives, risk mitigation, compliance, business continuity, and legal regulations
+-
 
 
 
@@ -294,9 +296,41 @@ Stay informed and strive to advance your skills, so you can contribute to the be
 
 ## CISSP security domains
 
+there are 8 security domains and they are used to improve your network security posture.
 
+- he first domain is security and risk management. ​There are several areas of focus for this domain: ​defining security goals and objectives, risk mitigation, ​compliance, business continuity, and legal regulations. 
+  - risk mitigation = the process of having the right procedures and rules in place to quickly reduce the impact of a risk like a breach
+  - business continuity = an organization's ability to maintain their everyday productivity by establishing risk disaster recovery plans
 
+- The asset security domain is focused on securing digital and physical assets. 
+  - focused on securing difital and physical assets. it's also related to the storage, maintenance, retention, and destruction of data
+    
+- security architecture and engineering
+  - focused on optimizing data security by ensuring effective tools, systems, and processes are in place to protect an organization's assets and data
+  - shared responsibility =  all individuals within an organization take an active role in lowering risk and maintaining both physical and virtual security
+ 
+- communication and network security
+  - focused on managing and securing physical networks and wireless communications
 
+- identity and access management
+  - focused on access and authorization to keep data secure, by making sure users follow establisheed policies to control and manage assets
+  - the goal of IAM is to reduce the overall risk to systems and data. there are four main components to IAM
+    1. identification = when a user verifies who they are by providing a username, an access card, or biometric data such as a fingerprint
+    2. authentication = the verification process to prove someones identity such as a password or pin 
+    3. authorization = takes place after a users identity has been confirmed and relates to their level of access as it relates to their positions in the organization
+    4. accountability = repoting user actions like login attempts to ensure systems and data are used properly
+ 
+- security assessment and testing
+ - focused on conducting security control testing, collecting and analyzing data, and conducting security sudits to monitor for risks, threats, and vulnerabilities
+ - security control testing can help the organization identify new and better eays to mitigate threats, risks, and vulnerabilities
+   
+- security operations
+  - focused on conducting investigations and implementing preventative measures
+    - investigations begin once the threat has been identified. this takes a hightened sense of urgency in order to minimize the damage to the organization.
+    
+- software development security    
+  - focused on using secure coding practices. each phase should have security injected to then to ensure the security of data
+  - 
 
 
 
