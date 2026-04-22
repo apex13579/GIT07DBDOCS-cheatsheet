@@ -351,7 +351,8 @@ there are 8 security domains and they are used to improve your network security 
   - people can also be a vulnerability
 
 
-
+## rmf framework
+- The steps in the RMF are prepare, categorize, select, implement, assess, authorize, and monitor. In the categorize step, security professionals develop risk-management processes and tasks.
 
 
 
