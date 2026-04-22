@@ -330,7 +330,8 @@ there are 8 security domains and they are used to improve your network security 
     
 - software development security    
   - focused on using secure coding practices. each phase should have security injected to then to ensure the security of data
-  - 
+ 
+
 
 
 
