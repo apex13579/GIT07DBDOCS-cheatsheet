@@ -292,7 +292,9 @@ Stay informed and strive to advance your skills, so you can contribute to the be
 
  As an example, consider the Health Insurance Portability and Accountability Act (HIPAA), which is a U.S. federal law established to protect patients' health information, also known as PHI, or protected health information. This law prohibits patient information from being shared without their consent. So, as a security professional, you might help ensure that the organization you work for adheres to both its legal and ethical obligation to inform patients of a breach if their health care data is exposed.
 
-## 
+## CISSP security domains
+
+
 
 
 
