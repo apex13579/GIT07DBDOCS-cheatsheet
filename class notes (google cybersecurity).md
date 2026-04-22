@@ -179,10 +179,15 @@ Reasons why social engineering attacks are effective include:
 
 - Govern: Establishing the organization’s cybersecurity strategy, roles, and responsibilities. This is the overarching "umbrella" that informs how the other functions are executed.
 - Identify: Developing an organizational understanding of managed risks to systems, people, assets, data, and capabilities.
+  - the management of cybersecurity risk and its effect on an organization's people and assets
 - Protect: Outlining safeguards to ensure delivery of critical services and contain or limit the impact of a potential cybersecurity event.
+  - the strategy used to protect an organization through the implementation of policies, procedures, training, and tools that help mitigate cybersecurity threats
 - Detect: Defining the appropriate activities to identify the occurrence of a cybersecurity event as quickly as possible.
+  - identifying potential security incidents and improving monitoring capabilities to increase the speed and efficiency of detections
 - Respond: Creating the playbook for actions to be taken once a detected cybersecurity incident occurs.
+  - making sure that the proper procedures are used to contain, neutralize, and analyze security incidents, and implement improvements to the security process
 - Recover: Identifying appropriate activities to maintain plans for resilience and to restore any capabilities or services that were impaired.
+  - the process of returning affected systems back to normal operation
 
 ## The Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)
 
@@ -361,10 +366,34 @@ there are 8 security domains and they are used to improve your network security 
     - biometrics = unique physical characteristics that can be used to verify a person's identity
   - authorization = the concept of granting access to specific resources within a system
 
+## cia triad
+- a model that helps inform how organizations consider risk when setting up systems and security policies
+  - confidentiality = only authorized users can access specific assets or data
+  - integrity = the data is correct, authentic, and reliable
+  - availability = data is accessible to those who are authorized to access it
+ 
+## owasp (open web application security project) principals
+1. reduce the attack surface (shrink the target)
+2. principal of lease privilege
+  - to reduce the amount of damage a data breach could cause    
+3. defence in depth
+  - multiplw aecurity contols to address different threats in different ways  
+4.separation of duties
+  - the person who signs the checks shouldnt be the one thst prepares them
+5. keep security simple
+  - the more convoluded it is the harder it will be to keep track of
+6. fix security issues correctly
+  - dont use a weak wifi passwork
+7. Establish secure defaults
+  - This principle means that the optimal security state of an application is also its default state for users; it should take extra work to make the application insecure
+8. Fail securely
+  - Fail securely means that when a control fails or stops, it should do so by defaulting to its most secure option.
+9. Don’t trust services
+  - Many organizations work with third-party partners. These outside partners often have different security policies than the organization does.
+10. Avoid security by obscurity
+  - The security of an application should not rely on keeping the source code secret. Its security should rely upon many other factors, including reasonable password policies, defense in depth, business transaction limits, solid network architecture, and fraud and audit controls.
 
-
-
-
+##
 
 
 
