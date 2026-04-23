@@ -83,6 +83,8 @@
 - SIEM tools: A software platform that collects, analyzes, and correlates security data from various sources across your IT infrastructure that helps identify and respond to security threats in real-time, investigate security incidents, and comply with security regulations
 - Splunk Cloud: A cloud-hosted tool used to collect, search, and monitor log data
 - Splunk Enterprise: A self-hosted tool used to retain, analyze, and search an organization's log data to provide security information and alerts in real-time
+- Incident response: An organization’s quick attempt to identify an attack, contain the damage, and correct the effects of a security breach
+- Playbook: A manual that provides details about any operational action
 
 
 
