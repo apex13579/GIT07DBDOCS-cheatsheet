@@ -369,9 +369,32 @@ there are 8 security domains and they are used to improve your network security 
   - people can also be a vulnerability
 
 
-## rmf framework
-- The steps in the RMF are prepare, categorize, select, implement, assess, authorize, and monitor. In the categorize step, security professionals develop risk-management processes and tasks.
+### 🛡️ NIST Risk Management Framework (RMF) - 7 Step Process
+The RMF is a continuous cycle used to manage security and privacy risk.
 
+
+
+1. **Prepare:** * **Purpose:** Carry out essential activities at the organization, mission/business process, and system levels to help prepare the organization to manage its security and privacy risks.
+   * **Key Action:** Establish context and priorities for risk management.
+
+2. **Categorize:** * **Purpose:** Inform organizational risk management processes and tasks.
+   * **Key Action:** Determine the impact (Low, Medium, High) should the system be compromised. This is where security professionals develop risk-management processes.
+
+3. **Select:** * **Purpose:** Choose an initial set of baseline controls for the system.
+   * **Key Action:** Tailor the controls to protect the system based on its categorization.
+
+4. **Implement:** * **Purpose:** Deploy the controls and describe how they are employed within the system and its environment of operation.
+   * **Key Action:** Document the specific technical, administrative, and physical setup.
+
+5. **Assess:** * **Purpose:** Determine if the controls are implemented correctly and operating as intended.
+   * **Key Action:** Testing the controls to ensure they actually produce the desired level of security.
+
+6. **Authorize:** * **Purpose:** Provide accountability by having a senior official make a risk-based decision to authorize the system to operate.
+   * **Key Action:** Formal acceptance of the remaining (residual) risk by the organization.
+
+7. **Monitor:** * **Purpose:** Maintain ongoing situational awareness about the security and privacy posture of the system.
+   * **Key Action:** Continuously tracking changes to the system and the effectiveness of controls.
+  
 ## controls
 - security controls = safeguards designed to reduce specific security risks
   - encryption = the process of converting data from a readable format to an encoded format
