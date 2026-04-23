@@ -514,7 +514,37 @@ Review the following Chronicle dashboards and their purposes:
 - User sign in overview dashboard
   The user sign in overview dashboard provides information about user access behavior across the organization. Security analysts can use this dashboard to access a list of all user sign-in events to identify unusual user activity, such as a user signing in from multiple locations at the same time. This information is then used to help mitigate threats, risks, and   vulnerabilities to user accounts and the organization’s applications.
 
+## 🧩 Course 1 & 2 Gaps (Add to Master Notes)
 
+### 1. NIST RMF: Impact Levels
+In the **Categorize** step of the RMF, systems are assigned an impact level based on the "high-water mark" of potential damage to CIA:
+* **Low Impact:** Loss of CIA has a **limited** adverse effect (minor damage to assets/finances).
+* **Moderate Impact:** Loss of CIA has a **serious** adverse effect (significant damage to operations or assets).
+* **High Impact:** Loss of CIA has a **catastrophic** adverse effect (loss of life, total mission failure, or severe financial ruin).
+
+### 2. Security Control Functions
+While you have the *categories* (Admin/Technical/Physical), you need the *functions* of how they act:
+* **Preventative:** Stops an incident before it happens (e.g., Firewall, MFA, Hardening).
+* **Detective:** Identifies an incident as it occurs or after the fact (e.g., SIEM, IDS, Motion Sensors).
+* **Corrective:** Fixes the system or reverses the damage after an incident (e.g., Backups, Incident Response).
+* **Deterrent:** Discourages a threat actor from attempting an attack (e.g., Warning signs, Fences, "Login monitored" banners).
+* **Compensating:** Alternative controls used when a primary control isn't feasible (e.g., extra logging when encryption isn't possible).
+
+### 3. Cloud Security: Shared Responsibility Model
+Crucial for Course 2; security is a split effort:
+* **Security OF the Cloud (Provider):** Google/AWS handles physical hardware, data centers, and core networking.
+* **Security IN the Cloud (Customer):** You handle your data, identity/access management (IAM), and application configurations.
+
+### 4. Advanced Threat Terminology
+* **Zero-Day:** * **Vulnerability:** A flaw unknown to the vendor (0 days to fix it).
+    * **Exploit:** The specific code/method used to take advantage of that flaw.
+* **APT (Advanced Persistent Threat):** A long-term, stealthy attack where an intruder stays in a network to steal data over time without being caught.
+* **Botnet:** A network of "zombie" computers infected with malware and controlled by a single attacker to launch DDoS attacks.
+
+### 5. Security Design & Ethics
+* **Security by Design:** Ensuring security is integrated at the beginning of a project, not bolted on at the end.
+* **Escalation Path:** The formal process of moving an incident to higher-level management or specialized teams (Legal, HR, C-Suite) when an analyst cannot resolve it alone.
+* **COPPA:** Children's Online Privacy Protection Act; regulates how PII is collected from children under 13.
 
 
 
