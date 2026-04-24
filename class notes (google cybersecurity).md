@@ -614,8 +614,13 @@ Crucial for Course 2; security is a split effort:
   -There are also some differences in the layout of an IPv6 packet header. The IPv6 header format is much simpler than IPv4. For example, the IPv4 Header includes the IHL, Identification, and Flags fields, whereas the IPv6 does not. The IPv6 header only introduces the Flow Label field, where the Flow Label identifies a packet as requiring special handling by         other IPv6 routers. 
 - ipv6 offers more efficient routing and eliminates private address collisions that can occur on IPv4 when two devices on the same network are attempting to use the same address.
 
-##  
-
+## network protocol
+  - a set of rules used by two or more devices on a network to discribe the order of delivery and the structure of the data
+- transmission control protocol = an internet communications protocol that allows two devices to form a connection and stream data
+- address resolution protocol (arp) = a network protoco used to determine the mac address of the next router or device on the path
+- hyper text transfer protocol secure (https) = a network protocol that provides a secure method of communication between clients and website servers
+- domain name system (dns) = a network protocol that translates internet domain names into ip addresses
+- 
 
 
 
