@@ -552,6 +552,41 @@ Crucial for Course 2; security is a split effort:
 - Infrastructure as a service (IaaS) refers to the use of virtual computer components offered by the CSP. These include virtual containers and storage that are configured remotely through the CSP’s API or web console. Cloud-compute and storage services can be used to operate existing applications and other technology workloads without significant modifications.     Existing applications can be modified to take advantage of the availability, performance, and security features that are unique to cloud provider services.
 - Platform as a service (PaaS) refers to tools that application developers can use to design custom applications for their company. Custom applications are designed and accessed in the cloud and used for a company’s specific business needs.
 
+## tcp/ip model
+- network access layer
+  - deals with the creation of data packets and their transmission across the network. this coresponds to the physical and data link layers of the osi model
+- internet layer
+  - this is where the ip address is attached to the data packet. this corresponds to the networking layer of the osi model
+- transport layer
+  - includes protocols to control the flow of traffic and includes error control to ensure data is flowing smoothly across the network. this corresponda to the transport layer of the osi model
+- application layer
+  - protocols dictate how the data will react to end devoces. this translates to the session, presentation, and application layers. of the osi model
+ 
+## componenets of a data packet in ipv4
+- the destination ip address is contained within the header of each data packet. this will be stored in future routing tables for future use along its path to its destination
+  - all data packets include an ip address also refered to as an ip packet
+  - Header information communicates more than just the address of the destination. It also includes information such as the source IP address, the size of the packet, and which protocol will be used for the data portion of the packet.
+  - the header is between 20-60 bytes in size while the data is between 20-65,535 bytes in size.
+- There are 13 fields within the header of an IPv4 packet:
+  - Version (VER): This 4 bit component tells receiving devices what protocol the packet is using. The packet used in the illustration above is an IPv4 packet.
+  - IP Header Length (HLEN or IHL): HLEN is the packet’s header length. This value indicates where the packet header ends and the data segment begins. 
+  - Type of Service (ToS): Routers prioritize packets for delivery to maintain quality of service on the network. The ToS field provides the router with this information.
+  - Total Length: This field communicates the total length of the entire IP packet, including the header and data. The maximum size of an IPv4 packet is 65,535 bytes.
+  - Identification: IPv4 packets can be up to 65, 535 bytes, but most networks have a smaller limit. In these cases, the packets are divided, or fragmented, into smaller IP packets. The identification field provides a unique identifier for all the fragments of the original IP packet so that they can be reassembled once they reach their destination.
+  - Flags: This field provides the routing device with more information about whether the original packet has been fragmented and if there are more fragments in transit.
+  - Fragmentation Offset: The fragment offset field tells routing devices where in the original packet the fragment belongs.
+  - Time to Live (TTL): TTL prevents data packets from being forwarded by routers indefinitely. It contains a counter that is set by the source. The counter is decremented by one as it passes through each router along its path. When the TTL counter reaches zero, the router currently holding the packet will discard the packet and return an ICMP Time Exceeded error     message to the sender. 
+  - Protocol: The protocol field tells the receiving device which protocol will be used for the data portion of the packet.
+  - Header Checksum: The header checksum field contains a checksum that can be used to detect corruption of the IP header in transit. Corrupted packets are discarded.
+  - Source IP Address: The source IP address is the IPv4 address of the sending device.
+  - Destination IP Address: The destination IP address is the IPv4 address of the destination device.
+  - Options: The options field allows for security options to be applied to the packet if the HLEN value is greater than five. The field communicates these options to the routing devices.
+ 
+## Difference between IPv4 and IPv6
+- IPv4 addresses are made up of four decimal numbers separated by periods, each number ranging from 0 to 255. Together the numbers span 4 bytes, and allow for up to 4.3 billion possible addresses. An example of an IPv4 address would be: 198.51.100.0. IPv6 addresses are made of eight hexadecimal numbers separated by colons, each number consisting of up to four       hexadecimal digits. Together, all numbers span 16 bytes, and allow for up to 340 undecillion addresses (340 followed by 36 zeros). An example of an IPv6 address would be: 2002:0db8:0000:0000:0000:ff21:0023:1234.
+  - to represent one or more consecutive sets of all zeros, you can replace the zeros with a double colon "::", so the above IPv6 address would be "2002:0db8::ff21:0023:1234."
+  -There are also some differences in the layout of an IPv6 packet header. The IPv6 header format is much simpler than IPv4. For example, the IPv4 Header includes the IHL, Identification, and Flags fields, whereas the IPv6 does not. The IPv6 header only introduces the Flow Label field, where the Flow Label identifies a packet as requiring special handling by         other IPv6 routers. 
+- ipv6 offers more efficient routing and eliminates private address collisions that can occur on IPv4 when two devices on the same network are attempting to use the same address.
 
 
 
