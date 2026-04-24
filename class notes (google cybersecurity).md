@@ -546,7 +546,11 @@ Crucial for Course 2; security is a split effort:
 * **Escalation Path:** The formal process of moving an incident to higher-level management or specialized teams (Legal, HR, C-Suite) when an analyst cannot resolve it alone.
 * **COPPA:** Children's Online Privacy Protection Act; regulates how PII is collected from children under 13.
 
+## CSPs provide three main categories of services:
 
+- Software as a service (SaaS) refers to software suites operated by the CSP that a company can use remotely without hosting the software. 
+- Infrastructure as a service (IaaS) refers to the use of virtual computer components offered by the CSP. These include virtual containers and storage that are configured remotely through the CSP’s API or web console. Cloud-compute and storage services can be used to operate existing applications and other technology workloads without significant modifications.     Existing applications can be modified to take advantage of the availability, performance, and security features that are unique to cloud provider services.
+- Platform as a service (PaaS) refers to tools that application developers can use to design custom applications for their company. Custom applications are designed and accessed in the cloud and used for a company’s specific business needs.
 
 
 
