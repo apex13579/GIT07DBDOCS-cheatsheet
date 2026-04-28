@@ -740,6 +740,35 @@ WPA3 has increased encryption to make passwords more secure  by using 128-bit en
 ## encapsulation 
 - a process performed by a vpn service that protects your data by wraping sensitive data in other data packets
 
+## security zones
+- a segment of a network that protects the internal network from the internet
+  - act as a barrier to internal networks.
+
+ ## network segmentation
+ - a security technique that divides the network into segments
+  - using vlans and sub-networks to keep undesirables off your secure networks
+
+## uncontrolled zone
+- any network outside of the organizations control
+
+## controlled zone
+- a subnet that protects the internal network from the uncontrolled zone
+  - demilitarized zone (dmz)
+  - internal network
+  - restricted zone
+ 
+## proxy servers
+- a server that fulfills the requests of a client by forwarding them on to other servers
+  - a dedicated server that sits between the internal network and the rest of the internet
+   ## forward proxy server
+    - regulates and restricts a person's access to the internet
+   ## reverse proxy server
+    - regulates and restricts the internet's access to an internal server
+   ## email proxy server
+    - filters spam emails by verifying whether the senders address was forged
+
+##
+
 
 
 
