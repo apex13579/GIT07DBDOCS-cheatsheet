@@ -144,6 +144,8 @@
 
 ## linux
 
+## tcp dump
+
 
 
 
@@ -767,8 +769,87 @@ WPA3 has increased encryption to make passwords more secure  by using 128-bit en
    ## email proxy server
     - filters spam emails by verifying whether the senders address was forged
 
-##
+## denial of service attack (dos)
+- an attack that targets a network or server and floods it with network traffic
+  - the objective is to overload the victoms network and to disrubt traffic. this is done by flooding the pipeline so services are unreachable and/or the server shuts down
+  - a network crash can leave them vulnerable to other attacks
+ 
+## distributed denial of service attacks (ddos)
+- a typw of denial of service attack that uses multiple devices or servers in different locations to flood the target network with unwanted traffic
 
+## network level dos attack
+- syn (synchronize) flood attack
+  - a type of dos attack that simulates a tcp connection and floods a server with syn packets
+- intrnet control message protocol (icmp)
+  - an internet protocol used by devices to tell each other about data transmission errors across the network
+- icmp flood
+  - a type of dos attack performed by an attacker repeatedly sending icmp packets to a network server
+- ping of death
+  - a type of dos attack caused when a hacker pings a system by sending it an oversized icmp packet that is bugger than 64kb
+ 
+
+## Cybersecurity Incident Report: Network Traffic Analysis
+
+Part 1: Provide a summary of the problem found in the DNS and ICMP
+traffic log.
+
+The UDP protocol reveals that:
+This is based on the results of the network analysis, which show that the ICMP echo reply
+returned the error message:
+The port noted in the error message is used for:
+The most likely issue is:
+
+Part 2: Explain your analysis of the data and provide at least one cause of the
+incident.
+Time incident occurred:
+Explain how the IT team became aware of the incident:
+Explain the actions taken by the IT department to investigate the incident:
+Note key findings of the IT department's investigation (i.e., details related to the port
+affected, DNS server, etc.):
+Note a likely cause of the incident:
+
+
+## Example of a Cybersecurity Incident Report
+
+### This report example is for a different security event than the scenario presented in the activity. This example should only be used to familiarize yourself with the expected report format.
+
+Part 1: Provide a summary of the problem found in the DNS and ICMP traffic
+log
+The network protocol analyzer logs indicate that port 443 is unreachable when attempting to
+access the secure employee background check website. Port 443 is normally used for
+HTTPS traffic. This may indicate a problem with the web server or the firewall configuration.
+It is possible that this is an indication of a malicious attack on the web server.
+
+Part 2: Explain your analysis of the data and provide at least one cause of the
+incident
+The incident occurred earlier this morning when the human resources (HR) team reported
+that they could not reach the background check web portal. The network security team
+responded and began running tests with the network protocol analyzer tool tcpdump. The
+resulting logs revealed that port 443, which is used for HTTPS traffic, is not reachable. We
+are continuing to investigate the root cause of the issue to determine how we can restore
+access to the secure web portal. Our next steps include checking the firewall configuration
+to see if port 443 is blocked and contacting the system administrator for the web server to
+have them check the system for signs of an attack. The HR team believes it is possible that a
+certain new hire may want to keep them from performing the background check. The
+network security team suspects this person might have launched an attack to crash the
+background check website.
+
+## malicious packet sniffing
+- packets include a header which include the senders mac and ip addresses, the body which has the data and the footer
+- packet sniffing is the practice of using software tools to observe data as it moves across the network
+- passive packet sniffing = a type of attack where data packets are read in transit
+- active packet sniffing = a type of attack where data packets are manipulated in transit
+
+## ip spoofing
+- a network attack performed when an attacker changes the source ip of a data packet to impersonate an authorized system and gain access to a network
+- common ip spoofing attacks
+  - on-path attack
+    - an attack where a malicious actor places themselves in the middle of an authorized connection and intercepts or alters the data in transit
+  - replay attack
+    - a network attack performed when a malicious actor intercepts a data packet in transit and delays it or repeats it at another time
+  - smurf attack
+    - a network attack performed when an attacker sniffs an authorized user's ip address and floods it with packets
+- to protect you will need to configure the firewall,    
 
 
 
