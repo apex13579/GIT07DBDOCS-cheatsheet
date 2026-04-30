@@ -849,7 +849,22 @@ background check website.
     - a network attack performed when a malicious actor intercepts a data packet in transit and delays it or repeats it at another time
   - smurf attack
     - a network attack performed when an attacker sniffs an authorized user's ip address and floods it with packets
-- to protect you will need to configure the firewall,    
+- to protect you will need to configure the firewall,
+
+## security hardening
+- the process of strengthening a system to reduce its vulnerability and attack surface
+  - it conducted on hardware, operating systems, applications, and computer networks
+
+## attack surface
+- all the potential vulnerabilities that a threat actor could exploit
+
+## penetration test
+- a simulated attack that helps identify vulnerabilities in systems, networks, websites, applications, and processes
+
+## os hardening practices
+- operating system (os) is the interface between computer hardware and the user
+
+  
 
 
 
