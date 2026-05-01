@@ -863,6 +863,19 @@ background check website.
 
 ## os hardening practices
 - operating system (os) is the interface between computer hardware and the user
+  - is the first application loaded when the computer is turned on. it acts as a go between for the user and the applications
+  - it is important to secure all os because one insecure os can lead to the whole network being compromised.
+    - practices include updates, backups,and keeping an up to date list of devices and authorized users
+    - some are only done once such as setting up a device to use a secure encryption standard
+    - os hardening tasks performed at regular intervals
+      1. patch installation aka patch update: a software and operating system update that addresses security vulnerabilities within a program or product.
+     
+    - baseline config (baseline image)
+      - a documentted set of specifications within a system that is used as a basis for future builds, releases and updates
+     
+    - multifactor authentication (mfa)
+      - a security measure which requires a user to verify their identity in two or more ways to access a system or network
+      - 
 
   
 
