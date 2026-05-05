@@ -187,7 +187,8 @@
 
 ## bash
 - echo
-  - a linux command that outputs a specified string of text
+  - a linux command that outputs a specified string of text 
+- 
 
 
 
