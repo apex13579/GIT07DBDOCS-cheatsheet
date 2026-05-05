@@ -121,6 +121,18 @@
 - Security hardening: The process of strengthening a system to reduce its vulnerabilities and attack surface
 - Security information and event management (SIEM): An application that collects and analyzes log data to monitor critical activities for an organization
 - World-writable file: A file that can be altered by anyone in the world
+- Application: A program that performs a specific task
+- Basic Input/Output System (BIOS): A microchip that contains loading instructions for the computer and is prevalent in older systems
+- Bootloader: A software program that boots the operating system
+- Command-line interface (CLI): A text-based user interface that uses commands to interact with the computer
+- Graphical user interface (GUI): A user interface that uses icons on the screen to manage different tasks on the computer
+- Hardware: The physical components of a computer
+- Legacy operating system: An operating system that is outdated but still being used
+- Operating system (OS): The interface between computer hardware and the user
+- Random Access Memory (RAM): A hardware component used for short-term memory
+- Unified Extensible Firmware Interface (UEFI): A microchip that contains loading instructions for the computer and replaces BIOS on more modern systems
+- User interface: A program that allows the user to control the functions of the operating system
+- Virtual machine (VM): A virtual version of a physical computer
 
 
 
@@ -153,9 +165,24 @@
 
 
 ## linux
+- the components of linus are
+  - the user
+    - the person interacting with a computer
+  - the applications
+    - a program that performs a specific task
+  - the shell
+    - the command-line interpreter 
+  - the filesystem hierarchy standard (fhs)
+    - the component of the linux os that organizes data
+  - the kernel
+    - the component of the linux os that manages processes and memory
+  - and the hardware
+    - the physical components of a computer
+- 
 
 
 ## tcp dump
+- a commandline packet analyzer
 
 
 
