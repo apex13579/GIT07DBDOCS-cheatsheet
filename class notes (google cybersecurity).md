@@ -178,11 +178,16 @@
     - the component of the linux os that manages processes and memory
   - and the hardware
     - the physical components of a computer
-- 
+- string data
+  - data consisting of an ordered sequence of characters
 
 
 ## tcp dump
 - a commandline packet analyzer
+
+## bash
+- echo
+  - a linux command that outputs a specified string of text
 
 
 
