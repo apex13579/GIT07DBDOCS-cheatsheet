@@ -162,6 +162,10 @@
 
 
 ## sql
+SELECT device_id, operating_system 
+FROM machines;
+
+
 
 
 ## linux
