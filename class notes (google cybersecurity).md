@@ -197,6 +197,10 @@ SELECT *
 FROM log_in_attempts 
 WHERE login_time < '07:00:00';
 
+SELECT * 
+FROM log_in_attempts 
+WHERE login_time BETWEEN '06:00:00' AND '07:00:00';
+
 
 
 
