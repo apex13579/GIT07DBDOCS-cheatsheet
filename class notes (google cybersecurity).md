@@ -165,6 +165,10 @@
 SELECT device_id, operating_system 
 FROM machines;
 
+SELECT device_id, operating_system 
+FROM machines 
+WHERE operating_system = 'OS 2';
+
 
 
 
