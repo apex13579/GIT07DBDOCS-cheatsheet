@@ -988,8 +988,55 @@ background check website.
     - a weakness that can be exploited by a threat
       - these represent the what, why, and how of cyber security
   - addressing concerns takes chear communication
-  
-
+  ## security starts with asset classification
+  - asset management is the process of tracking assets and the risks that affect them.
+  - asset inventory is a catalog of assets that need to be protected
+  - asset classification is the practice of labeling assets based on sensitivity and importance to an organization
+    - levels of asset classification
+      - public
+      - internal-only
+      - confidential
+      - restricted
+        - ip or health and payment info
+  ## assets in a digital world
+  - data is information that is translated, processed, or stored by a computer
+  - data is protected in 3 different states.
+    - in use
+      - data being accessed by one or more users
+    - in transit
+      - data traveling from one point to another
+    - at rest
+      - data not currently being accessed
+-information security (infosec)
+  - the practice of keeping data in all states away from unauthorized users
+  - weak infosec is a bit problem. it can lead to identity theft, financial loss and reputational damage
+  - infosec is a team effort
+  - placing the focus on people is what leads to the most effective security plans
+  - types of risk categories
+    - damage
+    - disclosure
+    - loss of information
+      - any of these can be due to malfunctions or attacks and even human error
+  - secutity plans ahve 3 elements
+    - policies
+      - a set of rules that reduce risk and protects information
+    - standards
+      - references that inform how to set policies
+    - procedures
+      - step-by-step instructions to perform a specific security task
+## nist cybersecurity framework
+  - a voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk
+- complliance
+  - the process of adhering to internal standards and external regulations
+- nist cdf components
+  - core
+    - identify
+    - protect
+    - detect
+    - respond
+    - recover
+  - tiers
+  - profiles
 
 
 
