@@ -201,7 +201,12 @@ SELECT *
 FROM log_in_attempts 
 WHERE login_time BETWEEN '06:00:00' AND '07:00:00';
 
-
+- SELECT DISTINCT: Returns only unique values in a column, removing duplicates.
+- Example: SELECT DISTINCT operating_system FROM machines;
+- AND / OR: Used to combine multiple filters in a WHERE clause.
+- Example: SELECT * FROM employees WHERE department = 'Sales' AND office = 'South-109';
+- NOT: Used to exclude specific data.
+- Example: SELECT * FROM log_in_attempts WHERE NOT country = 'USA';
 
 
 
@@ -223,7 +228,12 @@ WHERE login_time BETWEEN '06:00:00' AND '07:00:00';
     - the physical components of a computer
 - string data
   - data consisting of an ordered sequence of characters
-
+- ls -la: Lists all files in the current directory. The -l provides the "long" format (showing permissions, size, and owner), and the -a shows "all" files, including hidden configuration files (those starting with a .).
+- cd [directory]: (Change Directory) Used to navigate the file system. Use cd .. to move up one level.
+- pwd: (Print Working Directory) Displays the full path of the directory you are currently in. Useful when navigating deep nested folders in a lab.
+- sudo: (Superuser Do) Allows you to run commands with the security privileges of the root user. Essential for system-level changes.
+- cat [file]: Displays the entire contents of a file to the terminal. Best for short files.
+- head/tail -n [number]: Shows the first or last few lines of a file. tail -f is a favorite for security analysts to watch logs update in real-time
 
 ## tcp dump
 - a commandline packet analyzer
@@ -965,7 +975,9 @@ background check website.
      
 # assets threats and vulnerabilities
 ## planning for the future is a skill you hone with time and practice.
-
+- risk
+  - anything that can impact the confidentiality, integrity, or availability of an asset
+  - 
   
 
 
