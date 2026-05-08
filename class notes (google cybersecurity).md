@@ -977,7 +977,16 @@ background check website.
 ## planning for the future is a skill you hone with time and practice.
 - risk
   - anything that can impact the confidentiality, integrity, or availability of an asset
-  - 
+- our main focus as cybersecurity professionals is to maintain the cia triad and the process of security risk planning is the first step in protecting these cornerstones
+- each security plan will be different based on the specifics of each project
+- security plans consist of the analysis of three components and the effect they will have on the cia triad when applied to their systems
+  - assets
+    - an item perceived as having value to an organization
+  - threats
+    - any circumstance or event that can negatively impact assets
+  - vulnerabilities
+    - a weakness that can be exploited by a threat
+      - these represent the what, why, and how of cyber security
   
 
 
