@@ -987,6 +987,7 @@ background check website.
   - vulnerabilities
     - a weakness that can be exploited by a threat
       - these represent the what, why, and how of cyber security
+  - addressing concerns takes chear communication
   
 
 
