@@ -962,7 +962,9 @@ background check website.
      
     - multifactor authentication (mfa)
       - a security measure which requires a user to verify their identity in two or more ways to access a system or network
-      - 
+     
+# assets threats and vulnerabilities
+## planning for the future is a skill you hone with time and practice.
 
   
 
