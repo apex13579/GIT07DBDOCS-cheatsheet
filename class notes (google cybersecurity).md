@@ -1118,7 +1118,31 @@ background check website.
 - security orchastration, automation, and response (soar)
   - a collection of applications, tools, and workflows that uses automation to respond to security events
 - data exfiltration
-  -
+  - defensive measures
+    1. prevent attacker access
+    2. monitor network activity
+    3. protect assets
+    4. detect and stop the exfiltration 
+- packet header info
+  [version][ihl][tos][total length]
+  [identification][flags][fragment offset]
+  [time to live][protocol][header checksum]
+  [source address]
+  [destination address]
+  [options]
+
+  - the version field specifies which version of ip is being used
+  - the ihl field specifies the internet header length plus any options
+  - the tos field is the type of service field tells if certain packets should be treated with certain care
+  - the total length field tells the total length of the entire packet including the headers and the data
+  - the identification, flag , and fragment offset fields deal with fragmentation. these three fields specify if fragmentation has been used and how to reassemble the broken packets correctly
+    - fragmentation is when an ip packet gets broken into chunks 
+  - the time to live field determines how long a packet can live before it is dropped. without it the packet may loop in the router infinately.
+  - the protocol field relays what protocol is being used in the transmission of the packet they are represented numericly
+  - the header checksum field stores a value called a checksum which is used to determine if any errors have occured in the header
+  - the source and destination address fields stores the ip address of each respectfully
+  - the options field is not required and is instead generally used for network troubleshooting
+  - 
 
 
 
