@@ -1117,7 +1117,8 @@ background check website.
       - analyze data  
 - security orchastration, automation, and response (soar)
   - a collection of applications, tools, and workflows that uses automation to respond to security events
-
+- data exfiltration
+  -
 
 
 
