@@ -1123,7 +1123,7 @@ background check website.
     2. monitor network activity
     3. protect assets
     4. detect and stop the exfiltration 
-- packet header info
+- packet header info ipv4
 
 ```mermaid
 block-beta
@@ -1154,11 +1154,20 @@ block-beta
   - the header checksum field stores a value called a checksum which is used to determine if any errors have occured in the header
   - the source and destination address fields stores the ip address of each respectfully
   - the options field is not required and is instead generally used for network troubleshooting
-  - 
 
+- ipv6
 
-
-
+``` mermaid
+block-bets
+  columns 4
+  version["version"]:1
+  traffic class["traffic class"]:1.5
+  flow label["flow label"]:1.5
+  payload length["payload length"]:2
+  next header["nest header"]:1
+  hop limit["hop limit"]:1
+  source address["source address"]:4
+  destination address["destination address"]:4
 
 
 
