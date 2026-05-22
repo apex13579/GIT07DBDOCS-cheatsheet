@@ -1124,12 +1124,6 @@ background check website.
     3. protect assets
     4. detect and stop the exfiltration 
 - packet header info
-  [version][ihl][tos][total length]
-  [identification][flags][fragment offset]
-  [time to live][protocol][header checksum]
-  [source address]
-  [destination address]
-  [options]
 
 ```mermaid
 block-beta
@@ -1148,7 +1142,6 @@ block-beta
   DstAddr["Destination Address\n32 bits"]:4
   Options["Options\n Variable"]:4
 ```
-
 
   - the version field specifies which version of ip is being used
   - the ihl field specifies the internet header length plus any options
