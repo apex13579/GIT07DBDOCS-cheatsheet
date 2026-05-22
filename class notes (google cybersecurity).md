@@ -1038,7 +1038,29 @@ background check website.
   - tiers
   - profiles
 
-
+# detection and response
+- incident response lifecycle
+  - incident lifecycle framework provide structure for incident responce operations. frameworkd help organizations create a system for their incident response process fo that they are managed in a consistant and productive way
+  - the five core functions of the nist framework are identify, protect, detect, respond, and recover
+    - the last three steps are critical for security response
+    - The NIST incident response lifecycle is another NIST framework with additional substeps
+      - this begins with preparation, then detection and analysis, then containment and eradication and finally post incident activity. 
+  - one thing to note is that the incident lifecycle is not a linear lifecycle and some parts may overlap.
+  - according to nist an incident is
+    -an occurrence that actually or imminently jeopardizes, without lawful authority, the confidentiality, integrity, or availability of information or an information system; or constitures a violation or imminent threat of violation of law, security policies, security procedures, or acceptable use policies.
+  - event
+    - an observable occurrence on a network, system, or device
+  - all security incidents are events but not all events are secutity incidents
+  - the 5 w's of an incident
+    - who triggered the incident
+    - what happened
+    - when the incident took place
+    - where the incident took place
+    - why the incident occurred
+  - incident handler's journal
+    - a form of documentation used in incident response
+- incident response teams
+- documentation, detection, and management tools
 
 
 
