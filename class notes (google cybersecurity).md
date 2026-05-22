@@ -1158,16 +1158,16 @@ block-beta
 - ipv6
 
 ``` mermaid
-block-bets
+block-beta
   columns 4
   version["version"]:1
-  traffic class["traffic class"]:1.5
-  flow label["flow label"]:1.5
-  payload length["payload length"]:2
-  next header["nest header"]:1
-  hop limit["hop limit"]:1
-  source address["source address"]:4
-  destination address["destination address"]:4
+  trafficclass["traffic class"]:1
+  flowlabel["flow label"]:2
+  payloadlength["payload length"]:2
+  nextheader["nest header"]:1
+  hoplimit["hop limit"]:1
+  sourceaddress["source address"]:4
+  destinationaddress["destination address"]:4
 
 
 
