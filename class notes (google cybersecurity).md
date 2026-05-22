@@ -1061,8 +1061,62 @@ background check website.
     - a form of documentation used in incident response
 - incident response teams
 - documentation, detection, and management tools
-
-
+- computer security incident response teams (csirt)
+  - A specialized group of security professionals that are trained in incident management and response. sometimes referred to as a security incident response team (sirt) or incident handling team (iht)
+- coles on csirt
+  - security analyst
+  - technical lead (ops lead)
+  - incident coordinator
+- incident response plans
+  - the teams must be prepared to respond quickly, efficiently and effectively
+    - elements of a security plan
+      - policies
+      - standards
+      - procedures
+  - incident response plan
+    - a document that outlines the procedures to take in each step of incident response
+  - elements of an incident plan
+    - incident response procedures
+    - system info
+    - other documents like forms, contact lists, templates
+  - documentation
+    - any form of recorded content that is used for a specific purpose. there is no industry standard.
+      - playbooks
+      - incident handler's journals
+      - policies
+      - plans
+      - final reports
+  - playbook
+    - a manual that provides details about any operational action
+      - documentation is typically hosted on a word processor tool
+        - google docs
+        - onenote
+        - evernote
+        - notepad++
+      - ticketing systems like jira can also be used to document as well as
+        - google sheets
+        - audio recorders
+        - cameras
+        - handwritten notes
+- intrusion detection
+  - intrusion detection system (ids)
+    - an application that monitors system and network activity and produces alerts on possible intrusions
+  - intrusion prevention system (ips)
+    - an application that monitors system activity for intrusions and take action to stop the activity
+  - popular ids and ips tools are
+    - snort
+    - zeek
+    - kismet
+    - sagan
+    - suricata
+- security information and event management (siem)
+  - an application that collects and analyzes log data to monitor critical activities in an organization
+    - siem process
+      - collect and agregate data
+      - normalize data
+      - analyze data  
+- security orchastration, automation, and response (soar)
+  - a collection of applications, tools, and workflows that uses automation to respond to security events
 
 
 
