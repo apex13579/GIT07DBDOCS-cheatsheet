@@ -1131,6 +1131,25 @@ background check website.
   [destination address]
   [options]
 
+```mermaid
+block-beta
+  columns 4
+  Version["Version\n4 bits"]:1
+  IHL["IHL\n4 bits"]:1
+  TOS["TOS\n8 bits"]:1
+  TotalLength["Total Length\n16 bits"]:1
+  Identification["Identification\n16 bits"]:2
+  Flags["Flags\n3 bits"]:1
+  FragOffset["Frag Offset\n13 bits"]:1
+  TTL["TTL\n8 bits"]:1
+  Protocol["Protocol\n8 bits"]:1
+  Checksum["Header Checksum\n16 bits"]:2
+  SrcAddr["Source Address\n32 bits"]:4
+  DstAddr["Destination Address\n32 bits"]:4
+  Options["Options\n Variable"]:4
+```
+
+
   - the version field specifies which version of ip is being used
   - the ihl field specifies the internet header length plus any options
   - the tos field is the type of service field tells if certain packets should be treated with certain care
