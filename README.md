@@ -12,8 +12,6 @@
 
 [sql](sql.md)
 
-[html]
-
 [markdown]
 
 [css](css.md)
