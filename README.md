@@ -23,3 +23,7 @@
 [rust]
 
 [assembly]
+
+[docker]
+
+[proxmox]
