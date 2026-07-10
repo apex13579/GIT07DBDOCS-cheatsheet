@@ -10,7 +10,7 @@
 
 [node.js]
 
-[sql]
+[sql](sql.md)
 
 [html]
 
