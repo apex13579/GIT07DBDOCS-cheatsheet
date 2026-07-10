@@ -1,3 +1,6 @@
+| camp | purpose | why it matters |
+
+
 ### SQLite
 
 #### Connecting
