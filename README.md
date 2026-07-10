@@ -18,7 +18,7 @@
 
 [javascript](javascript.md)
 
-[rust]
+[rust](rust.md)
 
 [assembly]
 
