@@ -31,3 +31,5 @@
 [system ctl](Systemctl.md)
 
 [c#](c#.md)
+
+[powershell](powershell.md)
