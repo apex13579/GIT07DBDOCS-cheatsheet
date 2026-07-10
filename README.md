@@ -1,6 +1,6 @@
 [cisco](cisco.md)
 
-[bash]
+[bash](bash.md)
 
 [python](python.md)
 
