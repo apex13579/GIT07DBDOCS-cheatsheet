@@ -29,3 +29,5 @@
 [proxmox](proxmox.md)
 
 [html](html.md)
+
+[system ctl]( )
