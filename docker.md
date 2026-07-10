@@ -1,3 +1,6 @@
+| camp | purpose | why it matters |
+
+
 #### Container Lifecycle
 
 | Command | What It Does |
