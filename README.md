@@ -6,7 +6,7 @@
 
 [git](git.md)
 
-[go]
+[go](go.md)
 
 [node.js](node.js.md)
 
