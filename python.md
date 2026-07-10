@@ -1,3 +1,7 @@
+| camp | purpose | why it matters |
+
+
+
 ### Python
 
 #### HTTP Requests
