@@ -26,4 +26,4 @@
 
 [docker]
 
-[proxmox]
+[proxmox](proxmox.md)
