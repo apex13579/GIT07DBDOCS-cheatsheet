@@ -1,4 +1,4 @@
-| camp | - | why it matters |
+| camp | purpose | why it matters |
 
 
 
