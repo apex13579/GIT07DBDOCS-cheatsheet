@@ -18,7 +18,7 @@
 
 [css]
 
-[javascript]
+[javascript](javascript.md)
 
 [rust]
 
@@ -27,3 +27,5 @@
 [docker]
 
 [proxmox](proxmox.md)
+
+[html]
