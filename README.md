@@ -1,4 +1,4 @@
-[cisco]
+[cisco](cisco.md)
 
 [bash]
 
