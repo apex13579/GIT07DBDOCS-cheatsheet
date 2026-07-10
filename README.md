@@ -20,7 +20,7 @@
 
 [rust](rust.md)
 
-[assembly]
+[assembly](assembly.md)
 
 [docker](docker.md)
 
