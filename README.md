@@ -2,7 +2,7 @@
 
 [bash]
 
-[python]
+[python](python.md)
 
 [git]
 
