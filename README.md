@@ -4,7 +4,7 @@
 
 [python](python.md)
 
-[git]
+[git](git.md)
 
 [go]
 
