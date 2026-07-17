@@ -2,6 +2,7 @@
 - i will distill the notes after classes into their approptiate area
 
 # notes
+ 
 
 
 
@@ -15,22 +16,34 @@
 |ctrl+aa|double click the pars between the cells to auto adjust to what it written in the cell|
 |ctrl+shift+l|applies and removes filters|
 |ctrl+f|find|
+|ctrl+h|find and replace|
+|ctrl+s|save|
+|ctrl+~|shows formulas|
 
 # formula
 |formula|what it does|
 |---|---|
 |=unique(a2-a500)|finds all unique values|
+|=square=square|duplecate check|
+|=concat(a1,'-',a2)|concatonate|
+|=IF(j2=0,1,l2/j1)|tells the program what to do based on an if statement|
+|=COUNTIF(M11:M27,"<.5")|defines a percentage in the example it is 50%|
 
 # prefered formatting 
 - vertical and horizontal alignment should be uniform. I prefer left and top
 - header should be larger and have a background color. I prefer greens and yellows
 - borders looks good
 - freeze panes in view to keep a single item in view no matter what
+- auto save on and save it as excel file
+- raw data tabs are to be in red
+- analysis tabs are to be in blue
+- header is to be blue as well
 
 # errors
 |error|what it means|
 |---|---|
 |#spill|you have put in contradictory information|
+|#div/o!|mathmatical issue|
 
 # day to day opperations
 - Page layout will adjust how the page prints
@@ -45,3 +58,8 @@
 - add comments is indicated by a purple/pink tag. to add notes right click on the cell. you can tag people here
   - add a note is indicated by a red tag
 - adding filters will give a drop down bar.
+- save a copy of the raw data is best practices. at the bottom where the workbook tab is right click and create a copy then rename to raw data. right click and change color to red
+- 
+
+# vocab
+- csv = comma sepperated value and is used to store raw data.
