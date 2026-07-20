@@ -36,4 +36,4 @@
 
 [excel](excel.md)
 
-[Network troubleshooting](
+[Network troubleshooting](Networking-troubleshooting.md)
