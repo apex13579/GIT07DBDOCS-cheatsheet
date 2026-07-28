@@ -38,4 +38,4 @@
 
 [Network troubleshooting](Networking-troubleshooting.md)
 
-[Command prompr](Command-prompt.md)
+[Command prompt](Command-prompt.md)
