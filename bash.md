@@ -1,7 +1,3 @@
-| camp | purpose | why it matters |
-
-
-
 | Command | Purpose | Why it Matters |
 | :--- | :--- | :--- |
 | `sudo` | Super User Do | Grants admin/root privileges for system changes. |
