@@ -19,12 +19,13 @@
   -  for=allows assisting technology to create a linked relationship to the parent and child input element
   -  type=what kind of element are you wnating to deal with
   -  checked=to make a checkbox be checked unless otherwise. this is an attribute with no value
+  -  class="lists"
   -  
 - in the code if you copy and paste the anchor and href line where a word would be it turns those words into a clickable link. can be done with photos as well.
 - as long as you have an image in the same folder as your html file you can link to it by putting the file name instead of a URL.
 - all radio buttons can be put in a radio button group ensuring that only one answer is selected
 - line breaks have no effect on how a browser renders a page. to add a line break use the br tag
-- div elements are often used as target with css
+- div elements are often used as target with css using a class attribute
 
 | elements | purpose | why it matters |
 |---|---|---|
@@ -48,6 +49,7 @@
 |label|makes the input a button|makes the words of the input into a button to click on|
 |br|line break|makes a line break in the code of the web page to render|
 |div|division|the most commonly used element of all and a general purpose container for other elements|
+|footer|creates another segment|creates another segment for the purpose of organization. does nothing visually|
 
 
 
@@ -66,7 +68,7 @@
       <p>Click here to view more <a href="#" target="_blank">Cat photos</a>.</p>
       <img src="https://fcc.im/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
       <h3>Cat Lists</h3>
-      <div>
+      <div class="lists">
         <p>Things cats <em>love</em>:</p>
         <ul>
           <li>Cat nip</li>
@@ -93,6 +95,9 @@
         <input type="text" placeholder="cat photo url" required><br>
         <button type="submit">Submit</button>
       </form>
-    </main>  
+    </main>
+    <footer>
+      <p>No Copyright - freeCodeCamp.org</p>
+    </footer>
   </body>
 </html>
