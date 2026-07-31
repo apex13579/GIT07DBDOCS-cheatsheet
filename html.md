@@ -15,6 +15,7 @@
   - target="_blank". opens in a new tab
   -  
 - in the code if you copy and past the anchor and href line where a word would be it turns those words into a clickable link. can be done with photos as well.
+- as long as you have an image in the same folder as your html file you can link to it by putting the file name instead of a url.
 
 | elements | purpose | why it matters |
 |---|---|---|
@@ -29,6 +30,7 @@
 |#|placeholder|placeholder. also used to change the behavior of a link using javascript.|
 |ul|unordered list|a list that is unordered|
 |li|list item|list item|
+|ol|ordered list|ordered list. will be numbered|
 
 
 
@@ -50,6 +52,13 @@
       <li>Laser pointers</li>
       <li>Lasagna</li>
       </ul>
+      <img src="lasagna.jpg" alt="lasagna">
+      <p>Things cats hate:</p>
+      <ol>
+      <li>Flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+      </ol>
     </main>  
   </body>
 </html>
