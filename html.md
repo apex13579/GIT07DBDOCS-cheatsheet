@@ -7,7 +7,7 @@
 - an element is an individual component of html
 - most elements are container elements meaning they hold onto whatever is in between the opening and closing tags
 - !DOCTYPE html is what all html files are going to start with
-- 
+- html elements are often nested inside other html elements. it does not effect how the web page renders but it does make it easier to read and it is good practice to indent all nested elements for clean code
 - 
 
 | elements | purpose | why it matters |
@@ -16,4 +16,8 @@
 |</>|closing tag|marks the end of what you are doing|
 |h|signifies a heading|There are six heading elements in HTML: h1 through h6. They're used to show the importance of sections on your webpage, with h1 being the most important and h6 the least.|
 |p|signifies a paragraph|it signifies where the paragraphs are
+|<!---|starts comments|notation|
+|--->|ends comments|notation|
+|img|image tag|a space for images|
+
 
