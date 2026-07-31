@@ -11,10 +11,10 @@
 - atteibutes effect how the html behaves. it is always followed by a value that will be in ""
   - src=source. is followed by ="website url"
   - alt=alternative. a written description of the photo in ""
-  - href= links to external sites
+  - href= links to external sites. a # fill keep it a link, but it will no longer link to anything
   - target="_blank". opens in a new tab
   -  
-- in the code if you copy and past the anchor and href line where a word would be it turns those words into a clickable link.
+- in the code if you copy and past the anchor and href line where a word would be it turns those words into a clickable link. can be done with photos as well.
 
 | elements | purpose | why it matters |
 |---|---|---|
@@ -26,6 +26,10 @@
 |--->|ends comments|notation|
 |img|image tag|a space for images|
 |a|anchor|used to create a link you can click on|
+|#|placeholder|placeholder. also used to change the behavior of a link using javascript.|
+|ul|unordered list|a list that is unordered|
+|li|list item|list item|
+
 
 
 
@@ -37,8 +41,15 @@
     <main>
       <h3>Cat Photos</h3>
       <!--- TODO: Add link to view more cat photos.
-      <p>Click here to view more <a href="https://catphotos.com" target="_blank">Cat photos</a>.</p>
+      <p>Click here to view more <a href="#" target="_blank">Cat photos</a>.</p>
       <img src="https://fcc.im/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+      <h3>Cat Lists</h3>
+      <p>Things cats love:</p>
+      <ul>
+      <li>Cat nip</li>
+      <li>Laser pointers</li>
+      <li>Lasagna</li>
+      </ul>
     </main>  
   </body>
 </html>
