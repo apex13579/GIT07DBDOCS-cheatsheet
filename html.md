@@ -11,6 +11,7 @@
 - atteibutes effect how the html behaves. it is always followed by a value that will be in ""
   - src=source. is followed by ="website url"
   - alt=alternative. a written description of the photo in ""
+  - href= links to external sites
 - 
 
 | elements | purpose | why it matters |
@@ -22,6 +23,8 @@
 |<!---|starts comments|notation|
 |--->|ends comments|notation|
 |img|image tag|a space for images|
+|a|anchor|used to create a link you can click on|
+
 
 
 # template
@@ -34,6 +37,7 @@
       <!--- TODO: Add link to view more cat photos.
       <p>Click here to view more cat photos.
       </p>
+      <a href="catphotos.com>Cat photos</a>
       <img src="https://fcc.im/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
     </main>  
   </body>
