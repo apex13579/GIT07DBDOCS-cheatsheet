@@ -97,7 +97,7 @@
       </form>
     </main>
     <footer>
-      <p>No Copyright - freeCodeCamp.org</p>
+      <p>No Copyright - <a href="https://freeCodeCamp.org">freeCodeCamp.org</a></p>
     </footer>
   </body>
 </html>
