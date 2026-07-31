@@ -12,7 +12,9 @@
   - src=source. is followed by ="website url"
   - alt=alternative. a written description of the photo in ""
   - href= links to external sites
-- 
+  - target="_blank". opens in a new tab
+  -  
+- in the code if you copy and past the anchor and href line where a word would be it turns those words into a clickable link.
 
 | elements | purpose | why it matters |
 |---|---|---|
@@ -35,9 +37,7 @@
     <main>
       <h3>Cat Photos</h3>
       <!--- TODO: Add link to view more cat photos.
-      <p>Click here to view more cat photos.
-      </p>
-      <a href="https://catphotos.com>Cat photos</a>
+      <p>Click here to view more <a href="https://catphotos.com" target="_blank">Cat photos</a>.</p>
       <img src="https://fcc.im/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
     </main>  
   </body>
