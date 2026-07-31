@@ -13,6 +13,8 @@
   - alt=alternative. a written description of the photo in ""
   - href= links to external sites. a # fill keep it a link, but it will no longer link to anything
   - target="_blank". opens in a new tab
+  - action= tells the code what action to take
+  -  required=makes something required in order to interact. most have the need for an = but this is stand alone
   -  
 - in the code if you copy and past the anchor and href line where a word would be it turns those words into a clickable link. can be done with photos as well.
 - as long as you have an image in the same folder as your html file you can link to it by putting the file name instead of a url.
@@ -31,6 +33,15 @@
 |ul|unordered list|a list that is unordered|
 |li|list item|list item|
 |ol|ordered list|ordered list. will be numbered|
+|strong|enboldens text|edits the text to be enboldened|
+|em|emphosise|ittalicizes text|
+|form|establishes a form|allows user to embed a form for various things|
+|input|inputs data|inputs data based on the type specified. does not need closing tags|
+|button|a clickable button|adds a clickable button to the website. this does need a closing tag and anything in between the two is what will be on the button|
+|label|makes the input a button|makes the words of the input into a button to click on|
+
+
+
 
 
 
@@ -46,19 +57,26 @@
       <p>Click here to view more <a href="#" target="_blank">Cat photos</a>.</p>
       <img src="https://fcc.im/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
       <h3>Cat Lists</h3>
-      <p>Things cats love:</p>
+      <p>Things cats <em>love</em>:</p>
       <ul>
       <li>Cat nip</li>
       <li>Laser pointers</li>
       <li>Lasagna</li>
       </ul>
       <img src="lasagna.jpg" alt="lasagna">
-      <p>Things cats hate:</p>
+      <p>Things cats <strong>hate</strong>:</p>
       <ol>
       <li>Flea treatment</li>
       <li>thunder</li>
       <li>other cats</li>
       </ol>
+      <img src="cats.jpg" alt="Cats">
+      <form action="/submit-cat-photo">
+        <label><input type="radio"> indoor</label>
+        <label><input type="radio"> outdoor</label>
+        <input type="text" placeholder="cat photo url" required>
+        <button type="submit">Submit</button>
+      </form>
     </main>  
   </body>
 </html>
