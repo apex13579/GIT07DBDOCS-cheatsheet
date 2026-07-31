@@ -50,6 +50,7 @@
 |br|line break|makes a line break in the code of the web page to render|
 |div|division|the most commonly used element of all and a general purpose container for other elements|
 |footer|creates another segment|creates another segment for the purpose of organization. does nothing visually|
+|head|creates a segment|like the footer but you can also include the java and css files for style|
 
 
 
@@ -59,7 +60,10 @@
 
 # template
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <title>CatPhotoApp</title>
+  </head>
   <body>
     <h2>CatPhotoPP</h2>
     <main>
@@ -97,7 +101,7 @@
       </form>
     </main>
     <footer>
-      <p>No Copyright - <a href="https://freeCodeCamp.org">freeCodeCamp.org</a></p>
+      <p><small>No Copyright - <a href="https://freeCodeCamp.org">freeCodeCamp.org</a></small></p>
     </footer>
   </body>
 </html>
