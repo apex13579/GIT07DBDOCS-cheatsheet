@@ -20,12 +20,15 @@
   -  type=what kind of element are you wnating to deal with
   -  checked=to make a checkbox be checked unless otherwise. this is an attribute with no value
   -  class="lists"
+  -  rel=used to specify the relationship between the linked resource and the HTML document.
   -  
 - in the code if you copy and paste the anchor and href line where a word would be it turns those words into a clickable link. can be done with photos as well.
 - as long as you have an image in the same folder as your html file you can link to it by putting the file name instead of a URL.
 - all radio buttons can be put in a radio button group ensuring that only one answer is selected
 - line breaks have no effect on how a browser renders a page. to add a line break use the br tag
 - div elements are often used as target with css using a class attribute
+- It is considered best practice to separate your HTML and CSS in different files.
+- 
 
 | elements | purpose | why it matters |
 |---|---|---|
@@ -51,6 +54,8 @@
 |div|division|the most commonly used element of all and a general purpose container for other elements|
 |footer|creates another segment|creates another segment for the purpose of organization. does nothing visually|
 |head|creates a segment|like the footer but you can also include the java and css files for style|
+|link|used to link to external resources|is used to link to external resources like stylesheets and site icons|
+
 
 
 
