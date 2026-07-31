@@ -37,7 +37,7 @@
       <!--- TODO: Add link to view more cat photos.
       <p>Click here to view more cat photos.
       </p>
-      <a href="catphotos.com>Cat photos</a>
+      <a href="https://catphotos.com>Cat photos</a>
       <img src="https://fcc.im/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
     </main>  
   </body>
