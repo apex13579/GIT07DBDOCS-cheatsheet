@@ -8,6 +8,9 @@
 - most elements are container elements meaning they hold onto whatever is in between the opening and closing tags
 - !DOCTYPE html is what all html files are going to start with
 - html elements are often nested inside other html elements. it does not effect how the web page renders but it does make it easier to read and it is good practice to indent all nested elements for clean code
+- atteibutes effect how the html behaves. it is always followed by a value that will be in ""
+  - src=source. is followed by ="website url"
+  - alt=alternative. a written description of the photo in ""
 - 
 
 | elements | purpose | why it matters |
@@ -21,3 +24,17 @@
 |img|image tag|a space for images|
 
 
+# template
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>CatPhotoPP</h2>
+    <main>
+      <h3>Cat Photos</h3>
+      <!--- TODO: Add link to view more cat photos.
+      <p>Click here to view more cat photos.
+      </p>
+      <img src="https://fcc.im/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+    </main>  
+  </body>
+</html>
