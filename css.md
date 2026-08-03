@@ -1,1 +1,5 @@
-| camp | purpose | why it matters |
+# notes
+-
+
+| command | purpose | why it matters |
+|---|---|---|
