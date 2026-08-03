@@ -58,6 +58,7 @@
 |footer|creates another segment|creates another segment for the purpose of organization. does nothing visually|
 |head|creates a segment|like the footer but you can also include the java and css files for style|
 |link|used to link to external resources|is used to link to external resources like stylesheets and site icons|
+|meta|
 
 
 
