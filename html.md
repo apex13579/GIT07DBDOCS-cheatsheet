@@ -60,4 +60,6 @@
 |link|used to link to external resources|is used to link to external resources like stylesheets and site icons|
 |meta|to provide machine-readable metadata about a web page|This provides more information about the data|
 |section|splits contents into sections|can be used to group things more systematicly|
-|&lt;|alternative to <|useful for notes|
+|& lt;|alternative to < (remove the space)|useful for notes|
+|& gt;|alternative to > (remove the space)|useful for notes|
+
