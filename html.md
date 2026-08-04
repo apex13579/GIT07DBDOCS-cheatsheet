@@ -31,7 +31,9 @@
 - div elements are often used as target with css using a class attribute
 - It is considered best practice to separate your HTML and CSS in different files.
 - The link element should be placed inside the head element as seen in the following example:
-- 
+- named characters include the and symbol (&) for example along with a decimal numerator that uses the & and #
+- the three types of character references are named, decimal, and hexadecimal.
+- an HTML entity is A set of characters used to represent a reserved character in HTML.
 
 | elements | purpose | why it matters |
 |---|---|---|
@@ -62,4 +64,12 @@
 |section|splits contents into sections|can be used to group things more systematicly|
 |& lt;|alternative to < (remove the space)|useful for notes|
 |& gt;|alternative to > (remove the space)|useful for notes|
+|& #174;|regestered trademark (remove the space| useful for notes|
+|& #169;|copywrite symbol (remove space)|useful for notes|
+|& #x03A9;|greek omega symbol (remove space)|useful for notes|
+|& #x20AC;|Euro symbol (remove space)|useful for notes|
+|script|Used to embed an executable|
+
+
+
 
