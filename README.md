@@ -39,3 +39,5 @@
 [Network troubleshooting](Networking-troubleshooting.md)
 
 [Command prompt](Command-prompt.md)
+
+[VLC](vlc.md)
